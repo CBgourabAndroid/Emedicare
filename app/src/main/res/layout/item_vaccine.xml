@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        android:layout_weight="1"
+        android:padding="7dp"
+        android:background="@drawable/rect_gray_light">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Vaccine To"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/v_s_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:text="Consultation Number"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:text="Vaccine Name"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/v_s_bp_high"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:text="Report Number"
+                    android:singleLine="true"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Schedule Date"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/v_s_Disastolic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:text="Report Date"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Vaccine Date"                   android:gravity="left"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/v_s_pulse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:text="Report Date"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:text="Notes"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/v_s_Temperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:text="Report Date"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

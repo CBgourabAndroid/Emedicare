@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/nav_open_nav_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+    </group>
+
+    <group android:id="@+id/nav_open_nav_gallery"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="My Appointment" />
+    </group>
+    <group android:id="@+id/nav_open_update_profile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update_profile"
+            android:title="Update Profile" />
+    </group>
+
+    <group android:id="@+id/nav_open_report"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:title="Reports" />
+    </group>
+
+    <group android:id="@+id/nav_open_v_s"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_m_d"
+            android:title="Medical Data" />
+    </group>
+
+
+    <group android:id="@+id/nav_open_p_e"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_p_e"
+            android:title="Patient Education" />
+    </group>
+    <group android:id="@+id/nav_open_p_i"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_p_i"
+            android:title="Physician Instructions" />
+    </group>
+    <group android:id="@+id/nav_open_p_c"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_p_c"
+            android:title="Payment Cancellation" />
+    </group>
+
+    <group android:id="@+id/nav_open_nav_send"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_send"
+            android:title="About Us" />
+    </group>
+    <group android:id="@+id/nav_open_nav_logout"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

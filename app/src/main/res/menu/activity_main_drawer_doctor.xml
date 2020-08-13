@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/nav_open_nav_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+    </group>
+
+ <!--   <group android:id="@+id/nav_open_nav_gallery"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="My Appointment" />
+    </group>
+    <group android:id="@+id/nav_open_nav_share"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:title="Help &amp; Support" />
+    </group>
+    <group android:id="@+id/nav_open_nav_send"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_send"
+            android:title="About Us" />
+    </group>-->
+    <group android:id="@+id/nav_open_nav_logout"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

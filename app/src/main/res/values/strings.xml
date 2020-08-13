@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">eMedicare</string>
+
+    <string name="shared_no_data"></string>
+    <string name="shared_user_id">id</string>
+    <string name="shared_user_email">email</string>
+    <string name="shared_user_insurancecode">insurancecode</string>
+    <string name="shared_userphone">phonenumber</string>
+    <string name="shared_user_address">address</string>
+    <string name="shared_user_full_name">jhon</string>
+    <string name="shared_user_image">image</string>
+    <string name="shared_loggedin_status">lstatus</string>
+    <string name="loginType">logintype</string>
+    <string name="no_internet">Please Check internet</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="lorem_ipsum2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat, nunc eget volutpat viverra, lacus ligula venenatis nulla, in accumsan eros eros nec ipsum. Fusce eget massa id lorem blandit lobortis. Donec lacus ligula, commodo quis eleifend ac, rhoncus sed mi. </string>
+
+    <string name="home_second">Home Second</string>
+</resources>

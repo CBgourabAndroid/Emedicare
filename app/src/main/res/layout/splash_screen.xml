@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.coordinatorlayout.widget.CoordinatorLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+
+                <TextView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="55dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="eMedicare"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zaloon"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:visibility="gone"
+                    android:textSize="60dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <EditText
+                android:id="@+id/edtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="User Name"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:text="@={userModel.UName}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.4" />
+
+        <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Password"
+                android:visibility="gone"
+                android:inputType="textPassword"
+                android:text="@={userModel.pwd}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edtUserName"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
